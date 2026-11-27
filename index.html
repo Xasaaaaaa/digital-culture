@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Цифровая культура в профессиональной деятельности</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    background: #f8fafc;
+    color: #0f172a;
+    line-height: 1.6;
+}
+header {
+    background: #0f172a;
+    color: #fff;
+    padding: 0 48px;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 3px solid #3b82f6;
+}
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: -0.3px;
+}
+.brand-badge {
+    background: linear-gradient(135deg, #3b82f6, #6366f1);
+    width: 38px;
+    height: 38px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 16px;
+}
+nav { display: flex; gap: 12px; }
+nav a {
+    color: #cbd5e1;
+    text-decoration: none;
+    padding: 9px 18px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 15px;
+    transition: all 0.2s;
+}
+nav a.active, nav a:hover {
+    background: #2563eb;
+    color: #ffffff;
+}
+.hero {
+    padding: 44px 48px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+.hero-1 { background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%); }
+.hero-2 { background: linear-gradient(135deg, #4c1d95 0%, #7c3aed 100%); }
+.hero-3 { background: linear-gradient(135deg, #064e3b 0%, #059669 100%); }
+.hero-text { max-width: 720px; }
+.hero-tag {
+    display: inline-block;
+    background: rgba(255,255,255,0.18);
+    padding: 5px 14px;
+    border-radius: 999px;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+}
+.hero h1 { font-size: 34px; font-weight: 800; margin-bottom: 12px; line-height: 1.2; }
+.hero p { font-size: 17px; color: rgba(255,255,255,0.9); }
+.hero-graphic {
+    background: rgba(255,255,255,0.12);
+    border: 1px solid rgba(255,255,255,0.25);
+    border-radius: 20px;
+    padding: 20px;
+    width: 280px;
+    height: 165px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container { padding: 36px 48px; max-width: 1280px; margin: 0 auto; }
+.grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-bottom: 30px; }
+.card {
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 24px;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 4px 15px rgba(15, 23, 42, 0.04);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.card-illust {
+    height: 110px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4px;
+}
+.card h3 { font-size: 19px; font-weight: 700; color: #0f172a; }
+.card p { font-size: 14.5px; color: #475569; }
+.info-panel {
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 26px 32px;
+    border: 1px solid #e2e8f0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+}
+.info-panel h2 { font-size: 21px; margin-bottom: 12px; color: #0f172a; }
+.info-panel ul { padding-left: 20px; color: #334155; font-size: 15px; }
+.info-panel li { margin-bottom: 6px; }
+footer {
+    background: #0f172a;
+    color: #94a3b8;
+    text-align: center;
+    padding: 18px 48px;
+    font-size: 14px;
+    margin-top: 20px;
+}
+</style>
+</head>
+<body>
+<header>
+    <div class="brand"><div class="brand-badge">ЦК</div> Цифровая культура специалиста</div>
+    <nav>
+        <a href="index.html" class="active">1. Главная</a>
+        <a href="workplace.html">2. Цифровое рабочее место</a>
+        <a href="security.html">3. Безопасность и этика</a>
+    </nav>
+</header>
+<section class="hero hero-1">
+    <div class="hero-text">
+        <span class="hero-tag">Страница 1 • Основы цифровой культуры</span>
+        <h1>Цифровая культура в профессиональной деятельности</h1>
+        <p>Система компетенций современного специалиста: информационная грамотность, эффективные цифровые коммуникации и применение сквозных технологий.</p>
+    </div>
+    <div class="hero-graphic">
+        <svg width="220" height="130" viewBox="0 0 220 130" fill="none">
+            <rect x="20" y="15" width="180" height="100" rx="12" fill="white" fill-opacity="0.15" stroke="white" stroke-width="2"/>
+            <circle cx="65" cy="65" r="26" fill="#60a5fa"/>
+            <path d="M55 65L62 72L77 57" stroke="white" stroke-width="4" stroke-linecap="round"/>
+            <rect x="105" y="45" width="75" height="10" rx="5" fill="white"/>
+            <rect x="105" y="63" width="60" height="8" rx="4" fill="#bfdbfe"/>
+            <rect x="105" y="79" width="45" height="8" rx="4" fill="#93c5fd"/>
+        </svg>
+    </div>
+</section>
+<div class="container">
+    <div class="grid-3">
+        <div class="card">
+            <div class="card-illust" style="background: #eff6ff;">
+                <svg width="80" height="80" viewBox="0 0 80 80" fill="none">
+                    <rect x="14" y="16" width="52" height="48" rx="8" fill="#3b82f6"/>
+                    <rect x="24" y="42" width="8" height="14" rx="2" fill="white"/>
+                    <rect x="36" y="32" width="8" height="24" rx="2" fill="white"/>
+                    <rect x="48" y="24" width="8" height="32" rx="2" fill="#93c5fd"/>
+                </svg>
+            </div>
+            <h3>Информационная грамотность</h3>
+            <p>Навыки быстрого поиска информации в сети Интернет, работа с различными видами данных, критический анализ и оценка достоверности источников.</p>
+        </div>
+        <div class="card">
+            <div class="card-illust" style="background: #f5f3ff;">
+                <svg width="80" height="80" viewBox="0 0 80 80" fill="none">
+                    <circle cx="28" cy="34" r="12" fill="#8b5cf6"/>
+                    <circle cx="52" cy="34" r="12" fill="#a78bfa"/>
+                    <path d="M14 58C14 50 20 46 28 46C36 46 42 50 42 58" stroke="#7c3aed" stroke-width="5" stroke-linecap="round"/>
+                    <path d="M38 58C38 50 44 46 52 46C60 46 66 50 66 58" stroke="#a78bfa" stroke-width="5" stroke-linecap="round"/>
+                </svg>
+            </div>
+            <h3>Цифровые коммуникации</h3>
+            <p>Взаимодействие в форматах «Человек – компьютер», «Человек – человек» и «Много людей – много людей» с соблюдением норм сетевого этикета.</p>
+        </div>
+        <div class="card">
+            <div class="card-illust" style="background: #ecfdf5;">
+                <svg width="80" height="80" viewBox="0 0 80 80" fill="none">
+                    <rect x="20" y="20" width="40" height="40" rx="8" fill="#10b981"/>
+                    <circle cx="40" cy="40" r="10" stroke="white" stroke-width="4"/>
+                    <path d="M40 12V20M40 60V68M12 40H20M60 40H68" stroke="#059669" stroke-width="4" stroke-linecap="round"/>
+                </svg>
+            </div>
+            <h3>Сквозные технологии</h3>
+            <p>Применение технологий искусственного интеллекта, больших данных (Big Data), облачных вычислений и интернета вещей (IoT) в рабочей среде.</p>
+        </div>
+    </div>
+    <div class="info-panel">
+        <div>
+            <h2>Ключевые направления развития цифровой культуры в профессии</h2>
+            <ul>
+                <li><strong>Автоматизация процессов:</strong> использование облачных сервисов, электронного документооборота и интеллектуальных алгоритмов.</li>
+                <li><strong>Работа с данными:</strong> структурирование информации, визуализация аналитики и построение интеллект-карт (Mind Maps).</li>
+                <li><strong>Непрерывное обучение:</strong> освоение новых цифровых платформ и электронных информационно-образовательных сред.</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<footer>© 2026 Веб-сайт «Цифровая культура в профессиональной деятельности» • Выполнил: Азимов Хасан (ТГУ)</footer>
+</body>
+</html>
